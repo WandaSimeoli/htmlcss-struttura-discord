@@ -5,7 +5,33 @@ body {
     box-sizing: border-box;
     font-family: 
 }
+/* Debug  */
+.debug {
+  border: 1px dashed black;
+}
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+.row {
+    display: flex;   
+}
+.row1 > * {
+    background-color: #DAA520;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+header {
+    background-color: #ADD8E6;
+}
+.row1 > .col-small {
+    width: 20%;
+}
+.row1 > .col-big {
+    width: 80%;
+    text-align: center;
+}
+.right {
+    text-align: right;
 }
