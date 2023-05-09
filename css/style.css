@@ -25,6 +25,7 @@ body {
 }
 header {
     background-color: #ADD8E6;
+    margin-bottom: 20px;
 }
 .row1 > .col-small {
     width: 20%;
@@ -40,15 +41,44 @@ header {
     height: 300px;
     background-color: #00008B;
      padding: 30px;
-     position: relative;
 }
-.container-pink{
+.header2 > *  {
     background-color: #EE82EE;
-    width: 50%;
-    height: 300px;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+     width: calc(50% - 60px); 
+     height: 300px;
+    margin: auto;
 }
 /* Fine Header */
+/* Inizio Main  */
+.row2 > .col-big {
+    background-color: #1E90FF;
+    width: 60%;
+    height: 400px;
+}
+.row2 > .col-small {
+    background-color:#FFC0CB;
+    width: 40%;
+    height: 400px;
+}
+.row3 > .col-big {
+    background-color: #1E90FF;
+    width: 60%;
+    height: 400px;
+}
+.row3 > .col-small {
+    background-color:#FFC0CB;
+    width: 40%;
+    height: 400px;
+}
+.gray {
+    background-color: #D3D3D3;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.green >* {
+    background-color: #228B22;
+     width: calc(70% - 40px); 
+     height: 600px;
+    margin: auto;
+}
