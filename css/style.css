@@ -13,6 +13,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+/* Header */
 .row {
     display: flex;   
 }
@@ -35,3 +36,14 @@ header {
 .right {
     text-align: right;
 }
+.header2 {
+    background-color: #00008B;
+    padding: 30px;
+    padding-left: 400px;
+}
+.container-pink{
+    background-color: #EE82EE;
+    width: 70%;
+    height: 400px;
+}
+/* Fine Header */
