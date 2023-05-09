@@ -50,6 +50,7 @@ header {
 }
 /* Fine Header */
 /* Inizio Main  */
+/* Prima e terza sezione */
 .row2 > .col-big {
     background-color: #1E90FF;
     width: 60%;
@@ -60,6 +61,7 @@ header {
     width: 40%;
     height: 400px;
 }
+/* Seconda sezione */
 .row3 > .col-big {
     background-color: #1E90FF;
     width: 60%;
@@ -70,6 +72,7 @@ header {
     width: 40%;
     height: 400px;
 }
+/* Quarta sezione */
 .gray {
     background-color: #D3D3D3;
     padding: 20px;
@@ -81,4 +84,19 @@ header {
      width: calc(70% - 40px); 
      height: 600px;
     margin: auto;
+}
+footer {
+    background-color: #23272A;
+    padding: 10px;
+}
+.row4 > .col-big {
+    background-color: #F08080;
+    height: 400px;
+    flex-grow: calc(1);
+}
+.row4 > .col-small {
+    background-color: #20B2AA;
+    width: calc(100% / 6);
+    height: 400 px;
+    border: 1px dashed white;
 }
